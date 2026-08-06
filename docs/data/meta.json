@@ -1,0 +1,3970 @@
+{
+  "generatedAt": "2026-08-06T19:12:27.400Z",
+  "bbox": [
+    23.078008,
+    42.478817,
+    23.607416,
+    42.854525
+  ],
+  "badgeBands": [
+    [
+      13,
+      13.6
+    ],
+    [
+      13.6,
+      14.4
+    ],
+    [
+      14.4,
+      15.5
+    ],
+    [
+      15.5,
+      16.8
+    ],
+    [
+      16.8,
+      22
+    ]
+  ],
+  "modes": [
+    {
+      "mode": "bus",
+      "label": "buses",
+      "color": "#0059a9"
+    },
+    {
+      "mode": "tram",
+      "label": "trams",
+      "color": "#d6212b"
+    },
+    {
+      "mode": "tram",
+      "label": "metro",
+      "color": "#d6212b"
+    }
+  ],
+  "lines": [
+    {
+      "line": "1Tb",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ЛЕВСКИ Г",
+          "variants": 3,
+          "tripCount": 141,
+          "stops": 7,
+          "lengthKm": 3.5,
+          "stats": {
+            "observations": 163,
+            "matched": 163,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.3142461648868355,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "9",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОБАЗА ИСКЪР",
+          "variants": 2,
+          "tripCount": 102,
+          "stops": 18,
+          "lengthKm": 7.91,
+          "stats": {
+            "observations": 391,
+            "matched": 391,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.499808634494326,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. БУСМАНЦИ",
+          "variants": 4,
+          "tripCount": 40,
+          "stops": 23,
+          "lengthKm": 10.73,
+          "stats": {
+            "observations": 516,
+            "matched": 516,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.256295346726015,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ОВЧА КУПЕЛ-2",
+          "variants": 3,
+          "tripCount": 116,
+          "stops": 33,
+          "lengthKm": 16.23,
+          "stats": {
+            "observations": 787,
+            "matched": 787,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.574251566871875,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "12",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ИЗТОК",
+          "variants": 2,
+          "tripCount": 43,
+          "stops": 18,
+          "lengthKm": 12.13,
+          "stats": {
+            "observations": 569,
+            "matched": 569,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.545950392157422,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "14",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ИЗТОК",
+          "variants": 2,
+          "tripCount": 41,
+          "stops": 51,
+          "lengthKm": 27.73,
+          "stats": {
+            "observations": 1321,
+            "matched": 1321,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.3286692896576024,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "18",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СТАНЦИЯ ОРЛАНДОВЦИ",
+          "variants": 2,
+          "tripCount": 32,
+          "stops": 19,
+          "lengthKm": 10.16,
+          "stats": {
+            "observations": 494,
+            "matched": 494,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.3745769764557494,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "20",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ПЛ. ЛЪВОВ МОСТ",
+          "variants": 4,
+          "tripCount": 64,
+          "stops": 30,
+          "lengthKm": 18.81,
+          "stats": {
+            "observations": 890,
+            "matched": 890,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.913262910931279,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "21",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЕЛО ВОЙНЕГОВЦИ",
+          "variants": 2,
+          "tripCount": 49,
+          "stops": 29,
+          "lengthKm": 16.61,
+          "stats": {
+            "observations": 808,
+            "matched": 808,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.581533088303427,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "22",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЦЕНТРАЛНА ГАРА",
+          "variants": 4,
+          "tripCount": 37,
+          "stops": 30,
+          "lengthKm": 17.11,
+          "stats": {
+            "observations": 770,
+            "matched": 770,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.4899694629669265,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "22ТМ",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ К.ВЕЛИЧКОВ",
+          "variants": 2,
+          "tripCount": 84,
+          "stops": 9,
+          "lengthKm": 3.41,
+          "stats": {
+            "observations": 171,
+            "matched": 171,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6705048582821633,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "23",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ГАРА КУРИЛО",
+          "variants": 2,
+          "tripCount": 59,
+          "stops": 28,
+          "lengthKm": 17.32,
+          "stats": {
+            "observations": 788,
+            "matched": 788,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.148659901948462,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "24",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ОРЛАНДОВЦИ",
+          "variants": 4,
+          "tripCount": 25,
+          "stops": 9,
+          "lengthKm": 3.75,
+          "stats": {
+            "observations": 188,
+            "matched": 188,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.935825198012694,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "26",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ОБЕЛЯ-1",
+          "variants": 5,
+          "tripCount": 47,
+          "stops": 56,
+          "lengthKm": 28.9,
+          "stats": {
+            "observations": 1404,
+            "matched": 1404,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.185368234875784,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "27",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ КН. МАРИЯ ЛУИЗА",
+          "variants": 2,
+          "tripCount": 124,
+          "stops": 31,
+          "lengthKm": 19.15,
+          "stats": {
+            "observations": 914,
+            "matched": 914,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.563044568312424,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "28",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЕЛО ЛОКОРСКО",
+          "variants": 6,
+          "tripCount": 11,
+          "stops": 58,
+          "lengthKm": 42.24,
+          "stats": {
+            "observations": 1926,
+            "matched": 1926,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.477585826761467,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "29",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ГАРА СОФИЯ СЕВЕР",
+          "variants": 5,
+          "tripCount": 25,
+          "stops": 31,
+          "lengthKm": 23.56,
+          "stats": {
+            "observations": 1013,
+            "matched": 1013,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8405371566475983,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "30",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЕЛО БАЛША",
+          "variants": 2,
+          "tripCount": 72,
+          "stops": 23,
+          "lengthKm": 17.14,
+          "stats": {
+            "observations": 750,
+            "matched": 750,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.725224306355429,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "31",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЕЛО ГОЛЯНОВЦИ",
+          "variants": 2,
+          "tripCount": 99,
+          "stops": 19,
+          "lengthKm": 13.54,
+          "stats": {
+            "observations": 604,
+            "matched": 604,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.56874310774204,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "42",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КРАЯ НА КВ. МИХАЙЛОВО",
+          "variants": 3,
+          "tripCount": 90,
+          "stops": 32,
+          "lengthKm": 16.25,
+          "stats": {
+            "observations": 806,
+            "matched": 806,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.1821258881629895,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "44",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. ИВАНЯНЕ",
+          "variants": 3,
+          "tripCount": 34,
+          "stops": 12,
+          "lengthKm": 5.53,
+          "stats": {
+            "observations": 274,
+            "matched": 274,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.19564069936239,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "46",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МАНАСТИР СВ. ПЕТКА ПАРАСКЕВА",
+          "variants": 2,
+          "tripCount": 13,
+          "stops": 9,
+          "lengthKm": 8.45,
+          "stats": {
+            "observations": 422,
+            "matched": 422,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.740634753530366,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "47",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. ГРАДОМАН",
+          "variants": 4,
+          "tripCount": 80,
+          "stops": 23,
+          "lengthKm": 13.81,
+          "stats": {
+            "observations": 654,
+            "matched": 654,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9493128188261326,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "49",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. КЛИСУРА",
+          "variants": 3,
+          "tripCount": 78,
+          "stops": 27,
+          "lengthKm": 18.13,
+          "stats": {
+            "observations": 868,
+            "matched": 868,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.616869110789348,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "54",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ПЪТЕН ВЪЗЕЛ КАЛОТИНА",
+          "variants": 2,
+          "tripCount": 84,
+          "stops": 17,
+          "lengthKm": 9.14,
+          "stats": {
+            "observations": 429,
+            "matched": 429,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.980261786771939,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "56",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЕЛО МАЛО БУЧИНО",
+          "variants": 4,
+          "tripCount": 52,
+          "stops": 25,
+          "lengthKm": 13.36,
+          "stats": {
+            "observations": 664,
+            "matched": 664,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.48896774279478,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "58",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ГАРА ВЛАДАЯ",
+          "variants": 3,
+          "tripCount": 24,
+          "stops": 13,
+          "lengthKm": 7.25,
+          "stats": {
+            "observations": 364,
+            "matched": 364,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.593540601488418,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "59",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "С. МЪРЧАЕВО-ТОЛУМСКА МАХАЛА",
+          "variants": 5,
+          "tripCount": 78,
+          "stops": 29,
+          "lengthKm": 15.84,
+          "stats": {
+            "observations": 792,
+            "matched": 792,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.432662958730634,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "61",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "БУЛ. ЧЕРНИ ВРЪХ",
+          "variants": 4,
+          "tripCount": 24,
+          "stops": 14,
+          "lengthKm": 19.25,
+          "stats": {
+            "observations": 961,
+            "matched": 961,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.15258583910569,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "63",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "БУЛ. ЦАР БОРИС ІІІ",
+          "variants": 9,
+          "tripCount": 36,
+          "stops": 26,
+          "lengthKm": 20.44,
+          "stats": {
+            "observations": 984,
+            "matched": 984,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.174361616161654,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "64",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЗООПАРКА",
+          "variants": 3,
+          "tripCount": 167,
+          "stops": 33,
+          "lengthKm": 15.95,
+          "stats": {
+            "observations": 792,
+            "matched": 792,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.715765065308039,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "65",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. КРАСНО СЕЛО",
+          "variants": 3,
+          "tripCount": 81,
+          "stops": 11,
+          "lengthKm": 5.77,
+          "stats": {
+            "observations": 279,
+            "matched": 279,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.207687740053989,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "66",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ХИЖА АЛЕКО",
+          "variants": 3,
+          "tripCount": 33,
+          "stops": 12,
+          "lengthKm": 19.75,
+          "stats": {
+            "observations": 988,
+            "matched": 988,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.091588300128499,
+            "roundaboutSegs": 37,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "67",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. СИМЕОНОВО",
+          "variants": 6,
+          "tripCount": 101,
+          "stops": 21,
+          "lengthKm": 10.46,
+          "stats": {
+            "observations": 517,
+            "matched": 517,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.293408236657637,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "68",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. СИМЕОНОВО",
+          "variants": 4,
+          "tripCount": 67,
+          "stops": 17,
+          "lengthKm": 7.76,
+          "stats": {
+            "observations": 385,
+            "matched": 385,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.312261344330968,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "69",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕСТНОСТ ЯРЕМА",
+          "variants": 7,
+          "tripCount": 30,
+          "stops": 43,
+          "lengthKm": 26.43,
+          "stats": {
+            "observations": 1315,
+            "matched": 1315,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9556108523009117,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "70",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЕЛО ПЛАНА",
+          "variants": 3,
+          "tripCount": 36,
+          "stops": 46,
+          "lengthKm": 31.75,
+          "stats": {
+            "observations": 1579,
+            "matched": 1579,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8145833426604177,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "72",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ХОТЕЛ ПЛИСКА",
+          "variants": 5,
+          "tripCount": 135,
+          "stops": 29,
+          "lengthKm": 12.37,
+          "stats": {
+            "observations": 615,
+            "matched": 615,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.625759814122374,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "75",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "variants": 2,
+          "tripCount": 21,
+          "stops": 13,
+          "lengthKm": 6.07,
+          "stats": {
+            "observations": 303,
+            "matched": 303,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.235802193958224,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "76",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
+          "variants": 4,
+          "tripCount": 223,
+          "stops": 31,
+          "lengthKm": 17.39,
+          "stats": {
+            "observations": 864,
+            "matched": 864,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.698541843760366,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "77",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЦЕНТРАЛНА ГАРА",
+          "variants": 2,
+          "tripCount": 93,
+          "stops": 15,
+          "lengthKm": 6.63,
+          "stats": {
+            "observations": 326,
+            "matched": 326,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.482427757746534,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "78",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЦЕНТРАЛНА ГАРА",
+          "variants": 4,
+          "tripCount": 71,
+          "stops": 26,
+          "lengthKm": 12.25,
+          "stats": {
+            "observations": 597,
+            "matched": 597,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.35382681259713,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "79",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СТИНД",
+          "variants": 4,
+          "tripCount": 75,
+          "stops": 30,
+          "lengthKm": 11.97,
+          "stats": {
+            "observations": 595,
+            "matched": 595,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.4525175006681,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "81",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЕВЕРНА ПРОМИШЛЕНА ЗОНА",
+          "variants": 6,
+          "tripCount": 73,
+          "stops": 28,
+          "lengthKm": 13.53,
+          "stats": {
+            "observations": 659,
+            "matched": 659,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.713745772264092,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "82",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЦЕНТРАЛНА ГАРА",
+          "variants": 3,
+          "tripCount": 97,
+          "stops": 25,
+          "lengthKm": 9.9,
+          "stats": {
+            "observations": 491,
+            "matched": 491,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.364435173287142,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "83",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СТАДИОН ЛОКОМОТИВ",
+          "variants": 6,
+          "tripCount": 109,
+          "stops": 35,
+          "lengthKm": 17.5,
+          "stats": {
+            "observations": 845,
+            "matched": 845,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.317614717457287,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "84",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "УЛ. ГЕН. ГУРКО",
+          "variants": 5,
+          "tripCount": 136,
+          "stops": 20,
+          "lengthKm": 12.01,
+          "stats": {
+            "observations": 597,
+            "matched": 597,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.637111063703837,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "85",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ХАДЖИ ДИМИТЪР",
+          "variants": 3,
+          "tripCount": 79,
+          "stops": 22,
+          "lengthKm": 10.58,
+          "stats": {
+            "observations": 523,
+            "matched": 523,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.4318750677077965,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "86",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АП МАЛАШЕВЦИ",
+          "variants": 2,
+          "tripCount": 110,
+          "stops": 24,
+          "lengthKm": 10.8,
+          "stats": {
+            "observations": 516,
+            "matched": 516,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.4636781631799325,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "88",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЗООПАРКА",
+          "variants": 2,
+          "tripCount": 89,
+          "stops": 39,
+          "lengthKm": 17.8,
+          "stats": {
+            "observations": 882,
+            "matched": 882,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.979809901396228,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "90",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ГРАД БУХОВО",
+          "variants": 2,
+          "tripCount": 65,
+          "stops": 38,
+          "lengthKm": 25.25,
+          "stats": {
+            "observations": 1146,
+            "matched": 1146,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.933473892050331,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "94",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СТУДЕНТСКИ ГРАД",
+          "variants": 3,
+          "tripCount": 367,
+          "stops": 19,
+          "lengthKm": 9.2,
+          "stats": {
+            "observations": 455,
+            "matched": 455,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.880070396662444,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "95",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СТУДЕНТСКИ ГРАД",
+          "variants": 2,
+          "tripCount": 107,
+          "stops": 19,
+          "lengthKm": 7.74,
+          "stats": {
+            "observations": 386,
+            "matched": 386,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.007234076345838,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "97",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ХОТЕЛ АМБАСАДОР",
+          "variants": 5,
+          "tripCount": 99,
+          "stops": 17,
+          "lengthKm": 6.88,
+          "stats": {
+            "observations": 341,
+            "matched": 341,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.248640280034387,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "98",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КМЕТСТВО ЖЕЛЕЗНИЦА",
+          "variants": 4,
+          "tripCount": 65,
+          "stops": 33,
+          "lengthKm": 19.61,
+          "stats": {
+            "observations": 975,
+            "matched": 975,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.521336988677539,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "100",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. БЕНКОВСКИ",
+          "variants": 6,
+          "tripCount": 60,
+          "stops": 27,
+          "lengthKm": 11.49,
+          "stats": {
+            "observations": 568,
+            "matched": 568,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.9648495017713135,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "101",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЦЕНТРАЛНА ГАРА",
+          "variants": 2,
+          "tripCount": 26,
+          "stops": 11,
+          "lengthKm": 6.21,
+          "stats": {
+            "observations": 307,
+            "matched": 307,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.883045483877326,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "102",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СТУДЕНТСКИ ГРАД",
+          "variants": 6,
+          "tripCount": 109,
+          "stops": 35,
+          "lengthKm": 17.02,
+          "stats": {
+            "observations": 842,
+            "matched": 842,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.734972494333823,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "103",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ВЗ. ЛЮЛИН",
+          "variants": 3,
+          "tripCount": 6,
+          "stops": 26,
+          "lengthKm": 12.71,
+          "stats": {
+            "observations": 628,
+            "matched": 628,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.209540288323958,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "107",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. КАРПУЗИЦА",
+          "variants": 3,
+          "tripCount": 73,
+          "stops": 13,
+          "lengthKm": 4.4,
+          "stats": {
+            "observations": 219,
+            "matched": 219,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.5774615770793945,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "108",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СТАДИОН ЛОКОМОТИВ",
+          "variants": 2,
+          "tripCount": 79,
+          "stops": 25,
+          "lengthKm": 11.5,
+          "stats": {
+            "observations": 570,
+            "matched": 570,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.422268248937004,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "111",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. МЛАДОСТ-1",
+          "variants": 6,
+          "tripCount": 119,
+          "stops": 44,
+          "lengthKm": 28.36,
+          "stats": {
+            "observations": 1298,
+            "matched": 1298,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.972620065761225,
+            "roundaboutSegs": 106,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "117",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ИЗТОК",
+          "variants": 3,
+          "tripCount": 77,
+          "stops": 38,
+          "lengthKm": 28.21,
+          "stats": {
+            "observations": 1262,
+            "matched": 1262,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.407007645669185,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "118",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ИЗТОК",
+          "variants": 2,
+          "tripCount": 36,
+          "stops": 29,
+          "lengthKm": 25.05,
+          "stats": {
+            "observations": 1124,
+            "matched": 1124,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.986178170350794,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "119",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СУПЕРМАРКЕТ",
+          "variants": 4,
+          "tripCount": 57,
+          "stops": 18,
+          "lengthKm": 13.29,
+          "stats": {
+            "observations": 578,
+            "matched": 578,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.550568195794215,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "120",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ЛЕВСКИ Г",
+          "variants": 3,
+          "tripCount": 136,
+          "stops": 27,
+          "lengthKm": 12.4,
+          "stats": {
+            "observations": 603,
+            "matched": 603,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.338910990267776,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "150",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ СЛИВНИЦА",
+          "variants": 3,
+          "tripCount": 82,
+          "stops": 25,
+          "lengthKm": 13.23,
+          "stats": {
+            "observations": 653,
+            "matched": 653,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.4219152262637165,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "180",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ БИЗНЕС ПАРК",
+          "variants": 2,
+          "tripCount": 31,
+          "stops": 12,
+          "lengthKm": 12.25,
+          "stats": {
+            "observations": 591,
+            "matched": 591,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6385224964361695,
+            "roundaboutSegs": 58,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "181",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "variants": 6,
+          "tripCount": 140,
+          "stops": 28,
+          "lengthKm": 15.03,
+          "stats": {
+            "observations": 748,
+            "matched": 748,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.350909657852507,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "182",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ БИЗНЕС ПАРК",
+          "variants": 1,
+          "tripCount": 33,
+          "stops": 15,
+          "lengthKm": 16.49,
+          "stats": {
+            "observations": 786,
+            "matched": 786,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8783686062706395,
+            "roundaboutSegs": 65,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "183",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "УЛ. ГЕН. ГУРКО",
+          "variants": 3,
+          "tripCount": 47,
+          "stops": 32,
+          "lengthKm": 30.48,
+          "stats": {
+            "observations": 1521,
+            "matched": 1521,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.214183495300004,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "184",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. МЛАДОСТ-1",
+          "variants": 2,
+          "tripCount": 55,
+          "stops": 26,
+          "lengthKm": 12.39,
+          "stats": {
+            "observations": 618,
+            "matched": 618,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8895798208634162,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "185",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "variants": 4,
+          "tripCount": 145,
+          "stops": 26,
+          "lengthKm": 17.01,
+          "stats": {
+            "observations": 814,
+            "matched": 814,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.205935490558171,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "187",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ГАРА ИСКЪР",
+          "variants": 2,
+          "tripCount": 24,
+          "stops": 24,
+          "lengthKm": 17.66,
+          "stats": {
+            "observations": 853,
+            "matched": 853,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.014609897906583,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "188",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЕЛО ГЕРМАН",
+          "variants": 5,
+          "tripCount": 41,
+          "stops": 41,
+          "lengthKm": 19.89,
+          "stats": {
+            "observations": 991,
+            "matched": 991,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.736401713680184,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "204",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ДРУЖБА-2",
+          "variants": 3,
+          "tripCount": 133,
+          "stops": 29,
+          "lengthKm": 18.12,
+          "stats": {
+            "observations": 891,
+            "matched": 891,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.153078997335718,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "213",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "БЛ. 480 Ж.К. МЛАДОСТ-4",
+          "variants": 3,
+          "tripCount": 107,
+          "stops": 22,
+          "lengthKm": 14.86,
+          "stats": {
+            "observations": 736,
+            "matched": 736,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.907582963934602,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "260",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. ГОРНА БАНЯ",
+          "variants": 4,
+          "tripCount": 109,
+          "stops": 18,
+          "lengthKm": 9.39,
+          "stats": {
+            "observations": 433,
+            "matched": 433,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.84537052067083,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "280",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СТУДЕНТСКИ ГРАД",
+          "variants": 4,
+          "tripCount": 346,
+          "stops": 18,
+          "lengthKm": 10.76,
+          "stats": {
+            "observations": 535,
+            "matched": 535,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.2311545731658065,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "285",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ВРЪБНИЦА-2",
+          "variants": 2,
+          "tripCount": 81,
+          "stops": 22,
+          "lengthKm": 10.69,
+          "stats": {
+            "observations": 530,
+            "matched": 530,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9777363008031816,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "294",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ Г. М. ДИМИТРОВ",
+          "variants": 3,
+          "tripCount": 18,
+          "stops": 10,
+          "lengthKm": 4.03,
+          "stats": {
+            "observations": 201,
+            "matched": 201,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.3060931932790245,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "304",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ДРУЖБА-2",
+          "variants": 2,
+          "tripCount": 53,
+          "stops": 17,
+          "lengthKm": 18.19,
+          "stats": {
+            "observations": 879,
+            "matched": 879,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.947899370972208,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "305",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КУЛИНАРЕН К-Т ПЕЙФИЛ",
+          "variants": 2,
+          "tripCount": 106,
+          "stops": 25,
+          "lengthKm": 15.3,
+          "stats": {
+            "observations": 757,
+            "matched": 757,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.562442460504313,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "309",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ЛЮЛИН-1,2",
+          "variants": 5,
+          "tripCount": 83,
+          "stops": 25,
+          "lengthKm": 11.17,
+          "stats": {
+            "observations": 538,
+            "matched": 538,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.720668341200234,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "310",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ЛЮЛИН-5",
+          "variants": 3,
+          "tripCount": 138,
+          "stops": 22,
+          "lengthKm": 9.92,
+          "stats": {
+            "observations": 476,
+            "matched": 476,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.740028211762847,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "314",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. МЛАДОСТ-2",
+          "variants": 3,
+          "tripCount": 60,
+          "stops": 31,
+          "lengthKm": 11.99,
+          "stats": {
+            "observations": 598,
+            "matched": 598,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.382815258522317,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "404",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЦЕНТРАЛНА ГАРА",
+          "variants": 2,
+          "tripCount": 106,
+          "stops": 26,
+          "lengthKm": 14.37,
+          "stats": {
+            "observations": 700,
+            "matched": 700,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.928832126740546,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "413",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ТЕХНОПОЛИС Ж.К. МЛАДОСТ-4",
+          "variants": 3,
+          "tripCount": 103,
+          "stops": 34,
+          "lengthKm": 19.21,
+          "stats": {
+            "observations": 950,
+            "matched": 950,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.674414975115525,
+            "roundaboutSegs": 57,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "604",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ГАРА ИСКЪР",
+          "variants": 2,
+          "tripCount": 111,
+          "stops": 27,
+          "lengthKm": 17.93,
+          "stats": {
+            "observations": 869,
+            "matched": 869,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.844640214545515,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "802",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Метростанция Горна баня",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 5,
+          "lengthKm": 3.11,
+          "stats": {
+            "observations": 155,
+            "matched": 155,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9537521357300007,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "803",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ",
+          "variants": 4,
+          "tripCount": 19,
+          "stops": 5,
+          "lengthKm": 2.78,
+          "stats": {
+            "observations": 139,
+            "matched": 139,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.940116328491109,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "804",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ",
+          "variants": 2,
+          "tripCount": 33,
+          "stops": 9,
+          "lengthKm": 3.21,
+          "stats": {
+            "observations": 159,
+            "matched": 159,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.769225168702091,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "806",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Метростанция Горна баня",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 6,
+          "lengthKm": 4.11,
+          "stats": {
+            "observations": 205,
+            "matched": 205,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.369136791544948,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N1",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. МЛАДОСТ-4",
+          "variants": 2,
+          "tripCount": 10,
+          "stops": 49,
+          "lengthKm": 23.96,
+          "stats": {
+            "observations": 1163,
+            "matched": 1163,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.473753027800615,
+            "roundaboutSegs": 42,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N2",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. ОБЕЛЯ",
+          "variants": 2,
+          "tripCount": 10,
+          "stops": 35,
+          "lengthKm": 19.55,
+          "stats": {
+            "observations": 927,
+            "matched": 927,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.325589787852641,
+            "roundaboutSegs": 98,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N3",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ЛЕВСКИ Г",
+          "variants": 2,
+          "tripCount": 10,
+          "stops": 40,
+          "lengthKm": 17.43,
+          "stats": {
+            "observations": 847,
+            "matched": 847,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.245847086578417,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N4",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ДРУЖБА-2",
+          "variants": 2,
+          "tripCount": 10,
+          "stops": 71,
+          "lengthKm": 29.83,
+          "stats": {
+            "observations": 1476,
+            "matched": 1476,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.044434084115021,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "X9",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ АКАД. А. Т.- БАЛАН",
+          "variants": 2,
+          "tripCount": 31,
+          "stops": 21,
+          "lengthKm": 13.43,
+          "stats": {
+            "observations": 663,
+            "matched": 663,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.00358232780484,
+            "roundaboutSegs": 80,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "X10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. БЪКСТОН",
+          "variants": 4,
+          "tripCount": 42,
+          "stops": 12,
+          "lengthKm": 13.01,
+          "stats": {
+            "observations": 565,
+            "matched": 565,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.607583403174874,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "X43",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ БАНКЯ",
+          "variants": 2,
+          "tripCount": 8,
+          "stops": 17,
+          "lengthKm": 19.05,
+          "stats": {
+            "observations": 899,
+            "matched": 899,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.868696714702083,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ1",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Пътностроителна техника",
+          "variants": 3,
+          "tripCount": 160,
+          "stops": 24,
+          "lengthKm": 9.93,
+          "stats": {
+            "observations": 488,
+            "matched": 488,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.870453112729429,
+            "roundaboutSegs": 38,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ2",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. БЪКСТОН",
+          "variants": 7,
+          "tripCount": 294,
+          "stops": 28,
+          "lengthKm": 11.37,
+          "stats": {
+            "observations": 556,
+            "matched": 556,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.703074392864119,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ3",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Пътностроителна техника",
+          "variants": 10,
+          "tripCount": 76,
+          "stops": 21,
+          "lengthKm": 9.84,
+          "stats": {
+            "observations": 488,
+            "matched": 488,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.222092012896075,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ4",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ХАДЖИ ДИМИТЪР",
+          "variants": 6,
+          "tripCount": 174,
+          "stops": 30,
+          "lengthKm": 14.65,
+          "stats": {
+            "observations": 702,
+            "matched": 702,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.215527976725655,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ5",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "УМБАЛ СВ. АННА-УХО",
+          "variants": 6,
+          "tripCount": 257,
+          "stops": 24,
+          "lengthKm": 11.02,
+          "stats": {
+            "observations": 531,
+            "matched": 531,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.6417643485578814,
+            "roundaboutSegs": 37,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ6",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ЛОЗЕНЕЦ",
+          "variants": 6,
+          "tripCount": 131,
+          "stops": 32,
+          "lengthKm": 14,
+          "stats": {
+            "observations": 673,
+            "matched": 673,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.043611417151124,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ7",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
+          "variants": 6,
+          "tripCount": 129,
+          "stops": 31,
+          "lengthKm": 14.75,
+          "stats": {
+            "observations": 716,
+            "matched": 716,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.908722071634639,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ8",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ПЛ. СТОЧНА ГАРА",
+          "variants": 6,
+          "tripCount": 151,
+          "stops": 21,
+          "lengthKm": 8.16,
+          "stats": {
+            "observations": 404,
+            "matched": 404,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.765891687734468,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ9",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ПЛ. СТОЧНА ГАРА",
+          "variants": 3,
+          "tripCount": 369,
+          "stops": 22,
+          "lengthKm": 8.22,
+          "stats": {
+            "observations": 409,
+            "matched": 409,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.787765109090976,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ11",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ДРУЖБА -1",
+          "variants": 2,
+          "tripCount": 183,
+          "stops": 26,
+          "lengthKm": 11.1,
+          "stats": {
+            "observations": 539,
+            "matched": 539,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.8218276499067265,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ60",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ОВЧА КУПЕЛ-2",
+          "variants": 3,
+          "tripCount": 90,
+          "stops": 32,
+          "lengthKm": 13.47,
+          "stats": {
+            "observations": 668,
+            "matched": 668,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.8893390913231105,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ73",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. МЛАДОСТ-1",
+          "variants": 12,
+          "tripCount": 299,
+          "stops": 38,
+          "lengthKm": 20.17,
+          "stats": {
+            "observations": 1001,
+            "matched": 1001,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.956846132676905,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ74",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "БУЛ. КН. МАРИЯ ЛУИЗА",
+          "variants": 2,
+          "tripCount": 131,
+          "stops": 17,
+          "lengthKm": 7.36,
+          "stats": {
+            "observations": 348,
+            "matched": 348,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.333389782545741,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ123",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЛИФТА СИМЕОНОВО",
+          "variants": 2,
+          "tripCount": 70,
+          "stops": 18,
+          "lengthKm": 9.49,
+          "stats": {
+            "observations": 471,
+            "matched": 471,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.323705998176584,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ288",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ж.к. Гоце Делчев",
+          "variants": 2,
+          "tripCount": 113,
+          "stops": 19,
+          "lengthKm": 8.11,
+          "stats": {
+            "observations": 389,
+            "matched": 389,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.847759097487446,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБ801",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. МАНАСТИРСКИ ЛИВАДИ",
+          "variants": 2,
+          "tripCount": 69,
+          "stops": 18,
+          "lengthKm": 8.16,
+          "stats": {
+            "observations": 407,
+            "matched": 407,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.412926478382443,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТБE186",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "variants": 2,
+          "tripCount": 66,
+          "stops": 20,
+          "lengthKm": 11.48,
+          "stats": {
+            "observations": 565,
+            "matched": 565,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.202681975983055,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ1",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ЗАПАДЕН ПАРК",
+          "variants": 4,
+          "tripCount": 177,
+          "stops": 16,
+          "lengthKm": 6.42,
+          "stats": {
+            "observations": 292,
+            "matched": 292,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5167206732075584,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ3",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. ОРЛАНДОВЦИ",
+          "variants": 6,
+          "tripCount": 125,
+          "stops": 20,
+          "lengthKm": 7.73,
+          "stats": {
+            "observations": 318,
+            "matched": 318,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9574043567425459,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ4",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Бул. Никола Петков",
+          "variants": 6,
+          "tripCount": 142,
+          "stops": 23,
+          "lengthKm": 10.29,
+          "stats": {
+            "observations": 321,
+            "matched": 321,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8703862110921973,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ5",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЪДЕБНА ПАЛАТА",
+          "variants": 4,
+          "tripCount": 377,
+          "stops": 17,
+          "lengthKm": 7.7,
+          "stats": {
+            "observations": 227,
+            "matched": 227,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6967058878560429,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ6",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ИВАН ВАЗОВ",
+          "variants": 15,
+          "tripCount": 139,
+          "stops": 27,
+          "lengthKm": 12.48,
+          "stats": {
+            "observations": 554,
+            "matched": 554,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.140628606995658,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ7",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. МАНАСТИРСКИ ЛИВАДИ - ЗАПАД",
+          "variants": 5,
+          "tripCount": 235,
+          "stops": 18,
+          "lengthKm": 7.77,
+          "stats": {
+            "observations": 377,
+            "matched": 377,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1571677426431966,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ8",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ж.к. Люлин-5",
+          "variants": 6,
+          "tripCount": 183,
+          "stops": 19,
+          "lengthKm": 8.35,
+          "stats": {
+            "observations": 330,
+            "matched": 330,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.284748348810733,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ10",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ ВИТОША",
+          "variants": 12,
+          "tripCount": 218,
+          "stops": 24,
+          "lengthKm": 9.53,
+          "stats": {
+            "observations": 461,
+            "matched": 461,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8066757029375733,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ11",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. КНЯЖЕВО",
+          "variants": 6,
+          "tripCount": 143,
+          "stops": 29,
+          "lengthKm": 14.67,
+          "stats": {
+            "observations": 599,
+            "matched": 599,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0821924151074651,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ12",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ПЛ. ЖУРНАЛИСТ",
+          "variants": 6,
+          "tripCount": 82,
+          "stops": 10,
+          "lengthKm": 3.68,
+          "stats": {
+            "observations": 185,
+            "matched": 185,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.347378042323126,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ13",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ ВИТОША",
+          "variants": 6,
+          "tripCount": 272,
+          "stops": 24,
+          "lengthKm": 9.53,
+          "stats": {
+            "observations": 461,
+            "matched": 461,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8066757029375733,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ15",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "МЕТРОСТАНЦИЯ ВИТОША",
+          "variants": 6,
+          "tripCount": 284,
+          "stops": 24,
+          "lengthKm": 9.59,
+          "stats": {
+            "observations": 382,
+            "matched": 382,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8397451805364471,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ18",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. ОРЛАНДОВЦИ",
+          "variants": 6,
+          "tripCount": 243,
+          "stops": 14,
+          "lengthKm": 5.48,
+          "stats": {
+            "observations": 255,
+            "matched": 255,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9687706153712023,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ20",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ДЕПО ИСКЪР",
+          "variants": 4,
+          "tripCount": 167,
+          "stops": 29,
+          "lengthKm": 12.07,
+          "stats": {
+            "observations": 472,
+            "matched": 472,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.7822040042545609,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ21",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ГЕО МИЛЕВ",
+          "variants": 4,
+          "tripCount": 12,
+          "stops": 18,
+          "lengthKm": 7.5,
+          "stats": {
+            "observations": 306,
+            "matched": 306,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.603149715667564,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ22",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "АВТОСТАНЦИЯ ИЗТОК",
+          "variants": 12,
+          "tripCount": 215,
+          "stops": 26,
+          "lengthKm": 10.52,
+          "stats": {
+            "observations": 367,
+            "matched": 367,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8357985041677394,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ22А",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "УЛ. ДОБРОТИЧ",
+          "variants": 6,
+          "tripCount": 66,
+          "stops": 13,
+          "lengthKm": 5.08,
+          "stats": {
+            "observations": 263,
+            "matched": 263,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7900100154184613,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ23",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ж.К. ГЕО МИЛЕВ",
+          "variants": 4,
+          "tripCount": 64,
+          "stops": 14,
+          "lengthKm": 5.63,
+          "stats": {
+            "observations": 179,
+            "matched": 179,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.365168972596948,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ТМ27",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "КВ. МАНАСТИРСКИ ЛИВАДИ - ЗАПАД",
+          "variants": 5,
+          "tripCount": 235,
+          "stops": 16,
+          "lengthKm": 7.3,
+          "stats": {
+            "observations": 331,
+            "matched": 331,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0232810927119103,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M1",
+      "mode": "tram",
+      "color": "#EB2227",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "СЛИВНИЦА",
+          "variants": 2,
+          "tripCount": 217,
+          "stops": 16,
+          "lengthKm": 16.86,
+          "stats": {
+            "observations": 801,
+            "matched": 801,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.694865626735872,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M2",
+      "mode": "tram",
+      "color": "#1C75BC",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ВИТОША",
+          "variants": 2,
+          "tripCount": 241,
+          "stops": 13,
+          "lengthKm": 11.43,
+          "stats": {
+            "observations": 421,
+            "matched": 421,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 13.82724174199497,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M3",
+      "mode": "tram",
+      "color": "#39B54A",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ХАДЖИ ДИМИТЪР",
+          "variants": 2,
+          "tripCount": 304,
+          "stops": 12,
+          "lengthKm": 11.43,
+          "stats": {
+            "observations": 576,
+            "matched": 576,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.860627187660468,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M4",
+      "mode": "tram",
+      "color": "#FFDE17",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ЛЕТИЩЕ СОФИЯ",
+          "variants": 2,
+          "tripCount": 212,
+          "stops": 19,
+          "lengthKm": 21.12,
+          "stats": {
+            "observations": 953,
+            "matched": 953,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.918843059139064,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    }
+  ]
+}
