@@ -15,8 +15,22 @@ import { iterCsv, readCsv } from './lib/csv.mjs';
 import { makeProj, resample, nearestOnPolyline, polylineLength } from './lib/geo.mjs';
 import { buildGraph, railKind } from './lib/graph.mjs';
 import { matchShape, extendToStops } from './lib/hmm.mjs';
+import { buildNameDict, bulgarianTitleCase } from './lib/bulgarian.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+
+// The stop names arrive from the operator in capitals; OSM holds the same
+// words written properly. This dictionary decides which words Bulgarian keeps
+// lowercase mid-name — see lib/bulgarian.mjs.
+const nameDict = (() => {
+  const docs = [];
+  for (const f of ['data/osm/sofia-names.json', 'data/osm/sofia.json', 'data/osm/sofia-rail.json']) {
+    const p = join(ROOT, f);
+    if (!existsSync(p)) continue;
+    try { docs.push(JSON.parse(readFileSync(p, 'utf8'))); } catch { /* unreadable extract: skip */ }
+  }
+  return buildNameDict(docs);
+})();
 // m — longer jumps between shape points are GTFS data gaps. Inside a real gap
 // the HMM bridges by routing instead of interpolating observations, which would
 // fabricate straight-line detours through side streets.
@@ -365,6 +379,8 @@ async function processMode(cfg) {
       // feed names carry double spaces here and there — collapse for clean labels
       let name = (s.stop_name || '').replace(/\s+/g, ' ').trim();
       if (feed.titleCase) name = titleCase(name);
+      // user 13.08.2026: SCREAMING feed names → sentence style (lib/bulgarian.mjs)
+      name = bulgarianTitleCase(name, nameDict);
       const fix = STOP_FIX[feed.tag + ':' + s.stop_id];
       stopsById.set(feed.tag + ':' + s.stop_id, {
         name,

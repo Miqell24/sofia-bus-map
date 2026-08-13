@@ -69,6 +69,29 @@ if [ ! -f data/osm/sofia-rail.json ]; then
   [ "$ok" = 1 ] || { echo "Overpass (rails): all mirrors failed" >&2; exit 1; }
 fi
 
+# 2c) OSM — every NAMED feature in the same bbox, tags only. Not geometry: this
+#     is the case dictionary. The CGM feed shouts its stop names in capitals,
+#     while Bulgarian writes sentence-style ("Западен парк", "ж.к. Иван Вазов")
+#     — OSM spells the same words properly on streets, parks, districts and
+#     churches. Per-key union instead of a key regex: the regex form 504s on
+#     every Overpass mirror. See pipeline/lib/bulgarian.mjs.
+if [ ! -f data/osm/sofia-names.json ]; then
+  echo "== Overpass (names for the Bulgarian dictionary) =="
+  B='42.44,23.02,42.90,23.66'
+  QN="[out:json][timeout:600];(nwr($B)[name][amenity];nwr($B)[name][place];nwr($B)[name][tourism];nwr($B)[name][leisure];nwr($B)[name][shop];nwr($B)[name][building];nwr($B)[name][railway];nwr($B)[name][public_transport];nwr($B)[name][natural];nwr($B)[name][waterway];nwr($B)[name][landuse];nwr($B)[name][historic];nwr($B)[name][office];nwr($B)[name][man_made];);out tags;"
+  ok=0
+  for EP in "https://overpass-api.de/api/interpreter" \
+            "https://maps.mail.ru/osm/tools/overpass/api/interpreter" \
+            "https://overpass.kumi.systems/api/interpreter"; do
+    echo "-- $EP"
+    if curl -fsS --max-time 600 -o data/osm/sofia-names.json --data-urlencode "data=$QN" "$EP" \
+       && grep -q '"elements"' data/osm/sofia-names.json; then
+      ok=1; break
+    fi
+  done
+  [ "$ok" = 1 ] || { echo "Overpass (names): all mirrors failed" >&2; exit 1; }
+fi
+
 # 3) MapLibre GL (vendored, no CDN at runtime)
 if [ ! -f web/vendor/maplibre-gl.js ]; then
   echo "== MapLibre GL =="
