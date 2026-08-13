@@ -864,21 +864,33 @@ async function processMode(cfg) {
     return flags;
   };
   const mergedRuns = mergeRuns(runs);
-  const streetFeatures = mergedRuns.map((r) => {
-    const arr = r.linesKey.split(', ');
-    return {
-      type: 'Feature',
-      geometry: { type: 'LineString', coordinates: r.coords },
-      properties: { name: r.name, lines: r.linesKey, arr, roundabout: r.roundabout, mode: cfg.mode, color: colorOf(arr), ...runFlags(arr) },
-    };
-  });
+  // Each metro line draws its own full ribbon in its own official color
+  // (user, 13.08.2026): a multi-metro run (the "M1, M4" shared western trunk)
+  // is emitted once PER LINE instead of once in METRO_MIX purple, so a
+  // selected line is wholly its own color and overview ribbons simply
+  // overlap. linesKey is numSort-sorted, so the later line (M4 over M1) sits
+  // on top consistently. Stops keep colorOf(): a shared station ring stays
+  // purple = "several metro lines call here".
+  const perLine = (arr) => (arr.length > 1 && arr.every((l) => /^M[0-9]/.test(l)))
+    ? arr.map((l) => [l]) : [arr];
+  const streetFeatures = [];
+  for (const r of mergedRuns) {
+    for (const arr of perLine(r.linesKey.split(', '))) {
+      streetFeatures.push({
+        type: 'Feature',
+        geometry: { type: 'LineString', coordinates: r.coords },
+        properties: { name: r.name, lines: arr.join(', '), arr, roundabout: r.roundabout, mode: cfg.mode, color: colorOf(arr), ...runFlags(arr) },
+      });
+    }
+  }
   for (const g of rawRunsAll) {
-    const arr = [...g.lines].sort(numSort);
-    streetFeatures.push({
-      type: 'Feature',
-      geometry: { type: 'LineString', coordinates: g.coords },
-      properties: { name: '', lines: arr.join(', '), arr, roundabout: 0, mode: cfg.mode, color: colorOf(arr), unmapped: 1, ...runFlags(arr) },
-    });
+    for (const arr of perLine([...g.lines].sort(numSort))) {
+      streetFeatures.push({
+        type: 'Feature',
+        geometry: { type: 'LineString', coordinates: g.coords },
+        properties: { name: '', lines: arr.join(', '), arr, roundabout: 0, mode: cfg.mode, color: colorOf(arr), unmapped: 1, ...runFlags(arr) },
+      });
+    }
   }
   log(`Runs: ${runs.length} → ${mergedRuns.length} after merging` +
       (rawRunsAll.length ? ` (+${rawRunsAll.length} outside OSM)` : ''));
