@@ -292,13 +292,30 @@ async function processMode(cfg) {
       s.add(feed.tag);
     }
 
+    // The CGM feed ships a direction_id COLUMN but leaves it empty on every
+    // one of its 31 965 trips — the return direction exists as separate trips
+    // with a mirrored headsign (the Athens/OSY defect, here feed-wide: 116 of
+    // 122 lines lost their return leg, metro M1–M4 included). Grouped by
+    // direction_id alone both directions collapse into one bucket and only
+    // the busier one gets drawn. Pre-scan direction diversity per line; where
+    // direction_id cannot tell directions apart, the headsign is the key.
+    const dirSeen = new Map();
+    for await (const t of iterCsv(join(fdir, 'trips.txt'))) {
+      const L = routeToLine.get(t.route_id);
+      if (!L) continue;
+      let ds = dirSeen.get(L);
+      if (!ds) dirSeen.set(L, (ds = new Set()));
+      ds.add(t.direction_id || '');
+    }
+    const hsKey = (t) => (t.trip_headsign || '').replace(/\s+/g, ' ').trim() || '0';
+
     const byLineDir = new Map();
     for await (const t of iterCsv(join(fdir, 'trips.txt'))) {
       const L = routeToLine.get(t.route_id);
       if (!L) continue;
       let dirs = byLineDir.get(L);
       if (!dirs) byLineDir.set(L, (dirs = new Map()));
-      const dir = t.direction_id || '0';
+      const dir = (dirSeen.get(L)?.size ?? 0) > 1 ? (t.direction_id || '0') : hsKey(t);
       let m = dirs.get(dir);
       if (!m) dirs.set(dir, (m = new Map()));
       let e = m.get(t.shape_id);
