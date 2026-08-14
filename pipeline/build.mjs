@@ -62,6 +62,15 @@ const numSort = (a, b) => {
   const A = keyParts(a), B = keyParts(b);
   return A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]);
 };
+// CGM numbers every mode from 1, so the line KEYS carry the operator's mode
+// prefixes (ТБ = тролейбус, ТМ = трамвай) — without them trolleybus 1, tram 1
+// and the metro would collide in selection and in the journey planner. The city
+// itself writes bare numbers on vehicles, stops and its own maps (user
+// 14.08.2026), so the prefix is stripped from every DRAWN text: number rows,
+// terminus badges, chips, planner. Keys never change. A bus line that merely
+// ENDS in ТМ ("22ТМ") keeps it — the anchor is the start of the key.
+const dispLine = (l) => l.replace(/^Т[БМ]/, '');
+const dispList = (s) => s.split(', ').map(dispLine).join(', ');
 function round6(v) { return Math.round(v * 1e6) / 1e6; }
 // dark variant for feed-supplied line colors (badge rims / terminus fills)
 function darken(hex, f) {
@@ -1199,6 +1208,7 @@ const metaLines = results.flatMap((r) => r.metaLines);
   // them is unreadable and kilometers long — display caps at 12 + a "+N" tail.
   // (`arr` stays complete: the frontend filters and highlights on it.)
   const PSET = MODES[0].mlineSet || new Set();
+  const TSET = new Set(MODES.flatMap((m) => [...(m.trolleySet || [])])); // trolleybus numbers
   const capList = (s) => {
     const a = s.split(', ');
     return a.length > 14 ? a.slice(0, 12).join(', ') + ' +' + (a.length - 12) : s;
@@ -1206,13 +1216,23 @@ const metaLines = results.flatMap((r) => r.metaLines);
   for (const g of groups.values()) {
     const p = g.best.f.properties;
     const arr = p.busLines ? [...p.lines.split(', '), ...p.busLines.split(', ')] : p.lines.split(', ');
-    const baseProps = { lines: p.lines, color: p.color, mode: p.mode, arr, ...(p.metro ? { metro: 1 } : {}) };
-    if (p.busLines) baseProps.busLines = p.busLines;
+    const baseProps = { lines: dispList(p.lines), color: p.color, mode: p.mode, arr, ...(p.metro ? { metro: 1 } : {}) };
+    if (p.busLines) baseProps.busLines = dispList(p.busLines);
+    // mixed bus+trolleybus roadway: the label keeps the trolleybus numbers
+    // GREEN in a two-colour row (user 14.08.2026, Athens pattern) —
+    // all-trolleybus sets already come out green whole via colorOf
+    if (p.mode === 'bus' && TSET.size) {
+      const tl = arr.filter((l) => TSET.has(l));
+      if (tl.length && tl.length < arr.length) {
+        baseProps.tLines = dispList(tl.join(', '));
+        baseProps.ntLines = dispList(arr.filter((l) => !TSET.has(l)).join(', '));
+      }
+    }
     // mixed paratransit corridors carry both halves so the frontend can show
     // only the relevant one when a single network is toggled on
     if (p.mode === 'bus' && p.mline === 'mix') {
-      baseProps.mLines = capList(arr.filter((l) => PSET.has(l)).join(', '));
-      baseProps.nmLines = capList(arr.filter((l) => !PSET.has(l)).join(', '));
+      baseProps.mLines = dispList(capList(arr.filter((l) => PSET.has(l)).join(', ')));
+      baseProps.nmLines = dispList(capList(arr.filter((l) => !PSET.has(l)).join(', ')));
     }
     const anchors = [];
     // The collision engine knows nothing about the STROKES, so on a dual
@@ -1514,6 +1534,7 @@ const BADGE_BANDS = [[13, 13.6], [13.6, 14.4], [14.4, 15.5], [15.5, 16.8], [16.8
           geometry: { type: 'Point', coordinates: [round6(lon), round6(lat)] },
           properties: {
             line: l.line, mode: l.mode, color: l.color, colorDark: l.colorDark, band,
+            ...(dispLine(l.line) !== l.line ? { disp: dispLine(l.line) } : {}),
             ...(l.metro ? { metro: 1 } : {}),
             ...(scC < 1 ? { sc: scC } : {}),
             off: [

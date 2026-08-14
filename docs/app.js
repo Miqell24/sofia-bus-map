@@ -145,8 +145,12 @@ async function init() {
   const nTram = meta.lines.filter((l) => l.mode === 'tram').length - nMetro;
   document.getElementById('count').textContent = `(${nBus} bus & trolleybus · ${nTram} tram · ${nMetro} metro)`;
   document.getElementById('stamp').textContent = new Date(meta.generatedAt).toLocaleDateString('en-GB');
+  // CGM keys carry the mode prefix (ТБ trolleybus, ТМ tram) because every mode
+  // numbers from 1; the city writes bare numbers, so only the KEY keeps it —
+  // selection, the planner and data-line stay unambiguous (user 14.08.2026).
+  const dispLine = (l) => l.replace(/^\u0422[\u0411\u041C]/, '');
   document.getElementById('chips').innerHTML = meta.lines
-    .map((l) => `<button class="chip" data-line="${esc(l.line)}" style="background:${esc(l.color)}">${esc(l.line)}</button>`)
+    .map((l) => `<button class="chip" data-line="${esc(l.line)}" style="background:${esc(l.color)}">${esc(dispLine(l.line))}</button>`)
     .join(' ');
 
   // Line layers go below the base style labels (street names stay readable).
@@ -221,7 +225,13 @@ async function init() {
       ['get', 'lines'], { 'text-color': railColor },
       '\n', {},
       ['get', 'busLines'], { 'text-color': KMK }],
-    ['format', ['get', 'lines'], {}]];
+    ['case', ['has', 'tLines'],
+      // mixed bus+trolleybus roadway: trolleybus numbers keep their green
+      ['format',
+        ['get', 'tLines'], { 'text-color': TROLLEY_GREEN },
+        '\n', {},
+        ['get', 'ntLines'], { 'text-color': KMK }],
+      ['format', ['get', 'lines'], {}]]];
   map.addSource('labels', { type: 'geojson', data: 'data/labels.geojson' });
   const numbersLayout = {
     'text-field': numberField,
@@ -520,7 +530,7 @@ async function init() {
       minzoom: z0, maxzoom: z1,
       filter: ['all', bandC(b), ['has', 'line']],
       layout: {
-        'text-field': ['get', 'line'],
+        'text-field': ['coalesce', ['get', 'disp'], ['get', 'line']],
         'text-font': [NARROW_BOLD],
         // × sc: crowded complexes arrive pre-shrunk from the pipeline — the
         // per-feature constant keeps layout and render in agreement (the same
@@ -694,7 +704,12 @@ async function init() {
   let densityMainCond = true; // sparsest step: one main row per same-content corridor chain
   const busOnlyNumbers = ['case', ['has', 'busLines'],
     ['format', ['get', 'busLines'], { 'text-color': KMK }],
-    ['format', ['get', 'lines'], {}]];
+    ['case', ['has', 'tLines'],
+      ['format',
+        ['get', 'tLines'], { 'text-color': TROLLEY_GREEN },
+        '\n', {},
+        ['get', 'ntLines'], { 'text-color': KMK }],
+      ['format', ['get', 'lines'], {}]]];
   const tramOnlyNumbers = ['format', ['get', 'lines'], {}];
   function applyFilters() {
     const modes = [state.bus ? 'bus' : null, state.tram ? 'tram' : null].filter(Boolean);
@@ -1696,7 +1711,7 @@ async function init() {
           west = Math.min(west, c[0]); east = Math.max(east, c[0]);
           south = Math.min(south, c[1]); north = Math.max(north, c[1]);
         }
-        feats.push({ type: 'Feature', properties: { kind: 'leg', color: leg.color, line: leg.line }, geometry: { type: 'LineString', coordinates: line } });
+        feats.push({ type: 'Feature', properties: { kind: 'leg', color: leg.color, line: dispLine(leg.line) }, geometry: { type: 'LineString', coordinates: line } });
         // intermediate stops of the ride (strictly between boarding and alighting)
         for (const [name, pr] of leg.rec.pos) {
           if (pr.at > leg.a.at + 1 && pr.at < leg.b.at - 1) {
@@ -1738,7 +1753,7 @@ async function init() {
       opts.forEach((o, i) => {
         const li = document.createElement('li');
         const parts = o.legs.map((l, li) => {
-          const all = li === 0 && o.alt1 ? [l.line, ...o.alt1] : [l.line];
+          const all = (li === 0 && o.alt1 ? [l.line, ...o.alt1] : [l.line]).map(dispLine);
           const label = all.slice(0, 5).join(' / ') + (all.length > 5 ? ' …' : '');
           const tip = all.length > 5 ? ` title="${esc2(all.join(' / '))}"` : '';
           return `<span class="jl" style="background:${esc2(l.color)}"${tip}>${esc2(label)}</span> ${esc2(l.from)} &rarr; ${esc2(l.to)}`;
