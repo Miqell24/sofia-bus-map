@@ -127,3 +127,53 @@ export function bulgarianTitleCase(name, dict) {
     return out;
   }).join('');
 }
+
+// ---------- Cyrillic → Latin, the Streamlined System ----------
+//
+// The street-name labels carry the Latin reading under the Cyrillic one, in the
+// system Bulgaria itself uses: the 2009 Transliteration Act put it on the street
+// plates, the road signs and every Bulgarian passport, so "Граф Игнатиев" reads
+// "Graf Ignatiev" here exactly as it does on the corner of the street. OSM's own
+// Latin tags were measured against this and dropped: name:en covers 79% of the
+// distinct names in the Sofia extract but keeps sliding into translation
+// ("Околовръстен път" → "Ring Road", "бул. Христофор Колумб" → "Christopher
+// Columbus Blvd."), and int_name (75%) cannot decide between "bul. Tsarigradsko
+// shose" and "Bryuksel Blvd.". One standard applied by us covers every name with
+// one convention.
+const BG_LETTER = {
+  а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ж: 'zh', з: 'z', и: 'i',
+  й: 'y', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r', с: 's',
+  т: 't', у: 'u', ф: 'f', х: 'h', ц: 'ts', ч: 'ch', ш: 'sh', щ: 'sht',
+  ъ: 'a', ь: 'y', ю: 'yu', я: 'ya',
+};
+// The Act's own two exceptions: a word-final -ия is written -ia (София → Sofia,
+// Мария → Maria, not Sofiya/Mariya), and the country keeps its traditional
+// spelling — which is why бул. България is Bulgaria, not Balgariya.
+const BG_EXCEPT = new Map([['българия', 'Bulgaria']]);
+const BG_WORD = /[А-Яа-яЁё]+/g;
+
+const bgWord = (word) => {
+  const low = word.toLowerCase();
+  const caps = word.length > 1 && word === word.toUpperCase();
+  const exc = BG_EXCEPT.get(low);
+  if (exc) return caps ? exc.toUpperCase() : word[0] === low[0] ? exc.toLowerCase() : exc;
+  let src = low, tail = '';
+  if (src.length > 2 && src.endsWith('ия')) { src = src.slice(0, -2); tail = 'ia'; }
+  let out = '';
+  for (let i = 0; i < src.length; i++) {
+    const chunk = BG_LETTER[src[i]] ?? src[i];
+    const up = word[i] !== src[i];  // this letter was written in capitals
+    out += caps ? chunk.toUpperCase() : up ? chunk.charAt(0).toUpperCase() + chunk.slice(1) : chunk;
+  }
+  return out + (caps ? tail.toUpperCase() : tail);
+};
+
+// Latin fragments, digits and punctuation pass through untouched, so
+// "бул. Александър С. Пушкин" comes out "bul. Aleksandar S. Pushkin".
+export function latinize(name) {
+  if (!name) return name;
+  BG_WORD.lastIndex = 0;
+  if (!BG_WORD.test(name)) return name;
+  BG_WORD.lastIndex = 0;
+  return name.replace(BG_WORD, bgWord);
+}
