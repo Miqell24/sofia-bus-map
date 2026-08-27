@@ -210,9 +210,27 @@ async function init() {
   // numbers from 1; the city writes bare numbers, so only the KEY keeps it —
   // selection, the planner and data-line stay unambiguous (user 14.08.2026).
   const dispLine = (l) => l.replace(/^\u0422[\u0411\u041C]/, '');
-  document.getElementById('chips').innerHTML = meta.lines
-    .map((l) => `<button class="chip" data-line="${esc(l.line)}" style="background:${esc(l.color)}">${esc(dispLine(l.line))}</button>`)
-    .join(' ');
+  // Sofia numbers every mode from 1, so with the prefixes off the list holds
+  // three different lines called "1" — the headings say which is which, and
+  // each chip carries its terminals as a tooltip. data-line stays the key.
+  const chipHtml = (l) => {
+    const hs = (l.dirs || []).map((d) => d.headsign).filter(Boolean);
+    const tip = hs.length ? hs.join(' ↔ ') : '';
+    return `<button class="chip" data-line="${esc(l.line)}"${tip ? ` title="${esc(tip)}"` : ''} ` +
+      `style="background:${esc(l.color)}">${esc(dispLine(l.line))}</button>`;
+  };
+  const GROUPS = [
+    ['bus', 'Bus', (l) => l.mode === 'bus' && !/^ТБ/.test(l.line)],
+    ['trolley', 'Trolleybus', (l) => /^ТБ/.test(l.line)],
+    ['tram', 'Tram', (l) => /^ТМ/.test(l.line)],
+    ['metro', 'Metro', (l) => /^M\d/.test(l.line)],
+  ];
+  document.getElementById('chips').innerHTML = GROUPS.map(([, title, test]) => {
+    const ls = meta.lines.filter(test);
+    if (!ls.length) return '';
+    return `<h3 class="chip-head">${esc(title)} <span class="n">${ls.length}</span></h3>` +
+      `<div class="chip-cloud">${ls.map(chipHtml).join(' ')}</div>`;
+  }).join('');
 
   // Line layers go below the base style labels (street names stay readable).
   const firstSymbol = map.getStyle().layers.find((l) => l.type === 'symbol')?.id;

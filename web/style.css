@@ -385,3 +385,15 @@ details.journey .beta {
 }
 .city-switch nav .city-filter:focus { outline: none; border-color: var(--kmk); box-shadow: 0 0 0 2px rgba(0, 89, 169, 0.2); }
 @media (pointer: coarse) { .city-switch nav .city-filter { font-size: 16px; } }
+
+/* Grouped line list: with the printed numbers bare, the heading says which
+   network a number belongs to (a 1 can be a bus, a trolleybus and a tram). */
+.chip-head {
+  display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap;
+  margin: 12px 0 0; font-size: 12px; font-weight: 700; color: var(--kmk-dark);
+}
+.chip-head:first-child { margin-top: 6px; }
+.chip-head .n {
+  font-weight: 600; font-size: 11px; color: #556;
+  background: #eef1f6; border-radius: 999px; padding: 0 6px;
+}
