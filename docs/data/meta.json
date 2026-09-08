@@ -6848,206 +6848,6 @@
       "rank": 1
     },
     {
-      "line": "N1",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Ж.К. ЛЮЛИН-1,2",
-          "headsign": "Ж.К. ЛЮЛИН-1,2",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 48,
-          "lengthKm": 23.65,
-          "stats": {
-            "observations": 1152,
-            "matched": 1152,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.415062101282964,
-            "roundaboutSegs": 16,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Ж.К. МЛАДОСТ-4",
-          "headsign": "Ж.К. МЛАДОСТ-4",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 49,
-          "lengthKm": 23.96,
-          "stats": {
-            "observations": 1163,
-            "matched": 1163,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.473753027800589,
-            "roundaboutSegs": 42,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N2",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "КВ. ОБЕЛЯ",
-          "headsign": "КВ. ОБЕЛЯ",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 35,
-          "lengthKm": 19.55,
-          "stats": {
-            "observations": 927,
-            "matched": 927,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.325589787852612,
-            "roundaboutSegs": 98,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "СТУДЕНТСКИ ГРАД",
-          "headsign": "СТУДЕНТСКИ ГРАД",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 42,
-          "lengthKm": 21.49,
-          "stats": {
-            "observations": 1020,
-            "matched": 1020,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.872787600315625,
-            "roundaboutSegs": 14,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N3",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Ж.К. ЛЕВСКИ Г",
-          "headsign": "Ж.К. ЛЕВСКИ Г",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 40,
-          "lengthKm": 17.43,
-          "stats": {
-            "observations": 847,
-            "matched": 847,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.24584708657844,
-            "roundaboutSegs": 12,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Ж.К. ОВЧА КУПЕЛ-2",
-          "headsign": "Ж.К. ОВЧА КУПЕЛ-2",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 40,
-          "lengthKm": 17.51,
-          "stats": {
-            "observations": 850,
-            "matched": 850,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.28095108971181,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "N4",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
-          "headsign": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 65,
-          "lengthKm": 29.57,
-          "stats": {
-            "observations": 1462,
-            "matched": 1462,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.192311864517841,
-            "roundaboutSegs": 36,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Ж.К. ДРУЖБА-2",
-          "headsign": "Ж.К. ДРУЖБА-2",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 71,
-          "lengthKm": 29.83,
-          "stats": {
-            "observations": 1476,
-            "matched": 1476,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.04443408411504,
-            "roundaboutSegs": 25,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
       "line": "ТМ1",
       "mode": "tram",
       "color": "#d6212b",
@@ -9244,6 +9044,206 @@
         }
       ],
       "rank": 1
+    },
+    {
+      "line": "N1",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Ж.К. ЛЮЛИН-1,2",
+          "headsign": "Ж.К. ЛЮЛИН-1,2",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 48,
+          "lengthKm": 23.65,
+          "stats": {
+            "observations": 1152,
+            "matched": 1152,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.415062101282964,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ж.К. МЛАДОСТ-4",
+          "headsign": "Ж.К. МЛАДОСТ-4",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 49,
+          "lengthKm": 23.96,
+          "stats": {
+            "observations": 1163,
+            "matched": 1163,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.473753027800589,
+            "roundaboutSegs": 42,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N2",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "КВ. ОБЕЛЯ",
+          "headsign": "КВ. ОБЕЛЯ",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 35,
+          "lengthKm": 19.55,
+          "stats": {
+            "observations": 927,
+            "matched": 927,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.325589787852612,
+            "roundaboutSegs": 98,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "СТУДЕНТСКИ ГРАД",
+          "headsign": "СТУДЕНТСКИ ГРАД",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 42,
+          "lengthKm": 21.49,
+          "stats": {
+            "observations": 1020,
+            "matched": 1020,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.872787600315625,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N3",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Ж.К. ЛЕВСКИ Г",
+          "headsign": "Ж.К. ЛЕВСКИ Г",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 40,
+          "lengthKm": 17.43,
+          "stats": {
+            "observations": 847,
+            "matched": 847,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.24584708657844,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ж.К. ОВЧА КУПЕЛ-2",
+          "headsign": "Ж.К. ОВЧА КУПЕЛ-2",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 40,
+          "lengthKm": 17.51,
+          "stats": {
+            "observations": 850,
+            "matched": 850,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.28095108971181,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N4",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
+          "headsign": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 65,
+          "lengthKm": 29.57,
+          "stats": {
+            "observations": 1462,
+            "matched": 1462,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.192311864517841,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ж.К. ДРУЖБА-2",
+          "headsign": "Ж.К. ДРУЖБА-2",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 71,
+          "lengthKm": 29.83,
+          "stats": {
+            "observations": 1476,
+            "matched": 1476,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.04443408411504,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
     }
   ]
 }
