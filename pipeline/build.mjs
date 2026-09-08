@@ -1633,3 +1633,7 @@ writeFileSync(join(outDir, 'meta.json'), JSON.stringify({
   lines: metaLines.map((l) => (dispLine(l.line) !== l.line ? { ...l, label: dispLine(l.line) } : l)),
 }, null, 2));
 log(`Wrote data/out/{route,streets,labels,street-names,stops,badges,gtfs-shape}.geojson + meta.json`);
+
+// Night lines print black, and sort last where the lists carry no rank
+// (user rule 8.09.2026): a post-pass over the written outputs, see night.mjs.
+await (await import('./night.mjs')).nightPass(outDir, /^N\d/, { sort: false });
