@@ -214,7 +214,7 @@ async function init() {
   // three different lines called "1" — the headings say which is which, and
   // each chip carries its terminals as a tooltip. data-line stays the key.
   const chipHtml = (l) => {
-    const hs = (l.dirs || []).map((d) => d.headsign).filter(Boolean);
+    const hs = [...new Set((l.dirs || []).map((d) => d.headsign).filter(Boolean))];
     const tip = hs.length ? hs.join(' ↔ ') : '';
     return `<button class="chip" data-line="${esc(l.line)}"${tip ? ` title="${esc(tip)}"` : ''} ` +
       `style="background:${esc(l.color)}">${esc(dispLine(l.line))}</button>`;
