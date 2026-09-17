@@ -56,3 +56,7 @@ map-matches every line (HMM/Viterbi on the OSM graphs) and writes GeoJSON to
 
 Data: CGM Sofia timetables via BGNAP (CC BY 4.0) · base map © OpenFreeMap /
 OpenMapTiles / OpenStreetMap contributors.
+
+## 17.09.2026 — requested fixes
+
+- **Only the classic trolleybus lines 1–11 are trolleybuses.** CGM files the bus lines it runs with electric buses (60, 73, 74, 123, 288, 801, E186) as route_type 11; they are buses now — navy, keys without `ТБ` (`isClassicTrolley`). Applied to the published build by a post-pass.

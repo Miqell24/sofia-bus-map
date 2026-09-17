@@ -156,6 +156,7 @@ const norm = (sn) => sn.replace(/[A-Z]$/, (c) => CYR[c] || c);
 // 11 = trolleybus, both riding the road network, trolleybuses in green; 0 =
 // tram, 1 = metro riding the rail mode in its official line colors). Without
 // the filter `--all` on the bus mode would swallow the rail lines too.
+const isClassicTrolley = (sn, r) => r.route_type === '11' && /^([1-9]|1[01])$/.test(norm(sn));
 const MODES = [{
   mode: 'bus', label: 'buses', osmFile: 'data/osm/sofia.json',
   graphMode: 'road', color: '#0059a9', colorDark: '#00294f',
@@ -163,7 +164,10 @@ const MODES = [{
   feeds: [
     {
       tag: 'cgm', dir: 'data/gtfs', routeTypes: ['3', '11'],
-      mapKey: (sn, r) => (r.route_type === '11' ? 'ТБ' : '') + norm(sn),
+      // Only the CLASSIC trolleybus lines 1–11 are trolleybuses (user 17.09.2026):
+      // CGM files the bus lines it runs with electric buses (60, 73, 74, 123,
+      // 288, 801, E186) as route_type 11 too, but on the street they are buses.
+      mapKey: (sn, r) => (isClassicTrolley(sn, r) ? 'ТБ' : '') + norm(sn),
     },
   ],
 }];
@@ -310,7 +314,7 @@ async function processMode(cfg) {
       const key = feed.mapKey((r.route_short_name || '').trim(), r);
       if (!key) continue;
       routeToLine.set(r.route_id, key);
-      if (r.route_type === '11') {
+      if (r.route_type === '11' && key.startsWith('ТБ')) {
         cfg.trolleySet.add(key); TROLLEYS.add(key);
         cfg.lineColors[key] = TROLLEY_GREEN;
         cfg.lineColorsDark[key] = TROLLEY_DARK;

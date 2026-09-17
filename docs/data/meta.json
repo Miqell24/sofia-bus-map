@@ -872,447 +872,6 @@
       "rank": 0
     },
     {
-      "line": "ТБ60",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "БУЛ. КН. МАРИЯ ЛУИЗА",
-          "headsign": "БУЛ. КН. МАРИЯ ЛУИЗА",
-          "variants": 1,
-          "tripCount": 88,
-          "stops": 31,
-          "lengthKm": 13.44,
-          "stats": {
-            "observations": 656,
-            "matched": 656,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.486644418861098,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Ж.К. ОВЧА КУПЕЛ-2",
-          "headsign": "Ж.К. ОВЧА КУПЕЛ-2",
-          "variants": 1,
-          "tripCount": 90,
-          "stops": 32,
-          "lengthKm": 13.47,
-          "stats": {
-            "observations": 668,
-            "matched": 668,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.889339091323099,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "УЛ. ПИРОТСКА",
-          "headsign": "УЛ. ПИРОТСКА",
-          "variants": 1,
-          "tripCount": 2,
-          "stops": 27,
-          "lengthKm": 11.61,
-          "stats": {
-            "observations": 572,
-            "matched": 572,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.460678120503711,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "60",
-      "rank": 0
-    },
-    {
-      "line": "ТБ73",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "БЛ. 41 Ж.К. МЛАДОСТ-1",
-          "headsign": "БЛ. 41 Ж.К. МЛАДОСТ-1",
-          "variants": 1,
-          "tripCount": 13,
-          "stops": 9,
-          "lengthKm": 2.54,
-          "stats": {
-            "observations": 125,
-            "matched": 125,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.21154508598384,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Ж.К. МЛАДОСТ-1",
-          "headsign": "Ж.К. МЛАДОСТ-1",
-          "variants": 4,
-          "tripCount": 299,
-          "stops": 38,
-          "lengthKm": 20.17,
-          "stats": {
-            "observations": 1001,
-            "matched": 1001,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.956846132676932,
-            "roundaboutSegs": 14,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Ж.К. ОВЧА КУПЕЛ-2",
-          "headsign": "Ж.К. ОВЧА КУПЕЛ-2",
-          "variants": 4,
-          "tripCount": 299,
-          "stops": 43,
-          "lengthKm": 21.86,
-          "stats": {
-            "observations": 1081,
-            "matched": 1081,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.344533370066481,
-            "roundaboutSegs": 35,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "НЦ ПО РЕХАБИЛИТАЦИЯ",
-          "headsign": "НЦ ПО РЕХАБИЛИТАЦИЯ",
-          "variants": 2,
-          "tripCount": 14,
-          "stops": 30,
-          "lengthKm": 16.47,
-          "stats": {
-            "observations": 819,
-            "matched": 819,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.053013320936154,
-            "roundaboutSegs": 35,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "УМБАЛ СВ. АННА",
-          "headsign": "УМБАЛ СВ. АННА",
-          "variants": 1,
-          "tripCount": 13,
-          "stops": 32,
-          "lengthKm": 18.05,
-          "stats": {
-            "observations": 896,
-            "matched": 896,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.8581561883304785,
-            "roundaboutSegs": 14,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "73",
-      "rank": 0
-    },
-    {
-      "line": "ТБ74",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "БУЛ. КН. МАРИЯ ЛУИЗА",
-          "headsign": "БУЛ. КН. МАРИЯ ЛУИЗА",
-          "variants": 1,
-          "tripCount": 131,
-          "stops": 17,
-          "lengthKm": 7.36,
-          "stats": {
-            "observations": 348,
-            "matched": 348,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.333389782545708,
-            "roundaboutSegs": 35,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
-          "headsign": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
-          "variants": 1,
-          "tripCount": 131,
-          "stops": 17,
-          "lengthKm": 7.63,
-          "stats": {
-            "observations": 379,
-            "matched": 379,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.985638813060756,
-            "roundaboutSegs": 10,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "74",
-      "rank": 0
-    },
-    {
-      "line": "ТБ123",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
-          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
-          "variants": 1,
-          "tripCount": 70,
-          "stops": 19,
-          "lengthKm": 9.48,
-          "stats": {
-            "observations": 467,
-            "matched": 467,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 4.060902151441352,
-            "roundaboutSegs": 74,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "ЛИФТА СИМЕОНОВО",
-          "headsign": "ЛИФТА СИМЕОНОВО",
-          "variants": 1,
-          "tripCount": 70,
-          "stops": 18,
-          "lengthKm": 9.49,
-          "stats": {
-            "observations": 471,
-            "matched": 471,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 4.323705998176582,
-            "roundaboutSegs": 29,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "123",
-      "rank": 0
-    },
-    {
-      "line": "ТБ288",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
-          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
-          "variants": 1,
-          "tripCount": 113,
-          "stops": 21,
-          "lengthKm": 8.87,
-          "stats": {
-            "observations": 444,
-            "matched": 444,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 4.334577559844438,
-            "roundaboutSegs": 16,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "ж.к. Гоце Делчев",
-          "headsign": "ж.к. Гоце Делчев",
-          "variants": 1,
-          "tripCount": 113,
-          "stops": 19,
-          "lengthKm": 8.11,
-          "stats": {
-            "observations": 389,
-            "matched": 389,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 4.847759097487453,
-            "roundaboutSegs": 10,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "288",
-      "rank": 0
-    },
-    {
-      "line": "ТБ801",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "Ж.к. Красно село",
-          "headsign": "Ж.к. Красно село",
-          "variants": 1,
-          "tripCount": 66,
-          "stops": 14,
-          "lengthKm": 9.19,
-          "stats": {
-            "observations": 449,
-            "matched": 449,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 4.937940362867278,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "КВ. МАНАСТИРСКИ ЛИВАДИ",
-          "headsign": "КВ. МАНАСТИРСКИ ЛИВАДИ",
-          "variants": 1,
-          "tripCount": 69,
-          "stops": 18,
-          "lengthKm": 8.16,
-          "stats": {
-            "observations": 407,
-            "matched": 407,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 4.412926478382456,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "801",
-      "rank": 0
-    },
-    {
-      "line": "ТБE186",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
-          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
-          "variants": 1,
-          "tripCount": 66,
-          "stops": 20,
-          "lengthKm": 11.48,
-          "stats": {
-            "observations": 565,
-            "matched": 565,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 5.2026819759830625,
-            "roundaboutSegs": 15,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "село Герман",
-          "headsign": "село Герман",
-          "variants": 1,
-          "tripCount": 66,
-          "stops": 19,
-          "lengthKm": 11.6,
-          "stats": {
-            "observations": 576,
-            "matched": 576,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 6.130154766086176,
-            "roundaboutSegs": 34,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "E186",
-      "rank": 0
-    },
-    {
       "line": "1Tb",
       "mode": "bus",
       "color": "#0059a9",
@@ -2923,6 +2482,77 @@
       "rank": 1
     },
     {
+      "line": "60",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "БУЛ. КН. МАРИЯ ЛУИЗА",
+          "headsign": "БУЛ. КН. МАРИЯ ЛУИЗА",
+          "variants": 1,
+          "tripCount": 88,
+          "stops": 31,
+          "lengthKm": 13.44,
+          "stats": {
+            "observations": 656,
+            "matched": 656,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.486644418861098,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ж.К. ОВЧА КУПЕЛ-2",
+          "headsign": "Ж.К. ОВЧА КУПЕЛ-2",
+          "variants": 1,
+          "tripCount": 90,
+          "stops": 32,
+          "lengthKm": 13.47,
+          "stats": {
+            "observations": 668,
+            "matched": 668,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.889339091323099,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "УЛ. ПИРОТСКА",
+          "headsign": "УЛ. ПИРОТСКА",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 27,
+          "lengthKm": 11.61,
+          "stats": {
+            "observations": 572,
+            "matched": 572,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.460678120503711,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
       "line": "61",
       "mode": "bus",
       "color": "#0059a9",
@@ -3604,6 +3234,169 @@
             "rawMeters": 0,
             "meanError": 4.625759814122382,
             "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "line": "73",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "БЛ. 41 Ж.К. МЛАДОСТ-1",
+          "headsign": "БЛ. 41 Ж.К. МЛАДОСТ-1",
+          "variants": 1,
+          "tripCount": 13,
+          "stops": 9,
+          "lengthKm": 2.54,
+          "stats": {
+            "observations": 125,
+            "matched": 125,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.21154508598384,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ж.К. МЛАДОСТ-1",
+          "headsign": "Ж.К. МЛАДОСТ-1",
+          "variants": 4,
+          "tripCount": 299,
+          "stops": 38,
+          "lengthKm": 20.17,
+          "stats": {
+            "observations": 1001,
+            "matched": 1001,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.956846132676932,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ж.К. ОВЧА КУПЕЛ-2",
+          "headsign": "Ж.К. ОВЧА КУПЕЛ-2",
+          "variants": 4,
+          "tripCount": 299,
+          "stops": 43,
+          "lengthKm": 21.86,
+          "stats": {
+            "observations": 1081,
+            "matched": 1081,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.344533370066481,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "НЦ ПО РЕХАБИЛИТАЦИЯ",
+          "headsign": "НЦ ПО РЕХАБИЛИТАЦИЯ",
+          "variants": 2,
+          "tripCount": 14,
+          "stops": 30,
+          "lengthKm": 16.47,
+          "stats": {
+            "observations": 819,
+            "matched": 819,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.053013320936154,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "УМБАЛ СВ. АННА",
+          "headsign": "УМБАЛ СВ. АННА",
+          "variants": 1,
+          "tripCount": 13,
+          "stops": 32,
+          "lengthKm": 18.05,
+          "stats": {
+            "observations": 896,
+            "matched": 896,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.8581561883304785,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "line": "74",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "БУЛ. КН. МАРИЯ ЛУИЗА",
+          "headsign": "БУЛ. КН. МАРИЯ ЛУИЗА",
+          "variants": 1,
+          "tripCount": 131,
+          "stops": 17,
+          "lengthKm": 7.36,
+          "stats": {
+            "observations": 348,
+            "matched": 348,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.333389782545708,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
+          "headsign": "Ж.К. ГОЦЕ ДЕЛЧЕВ",
+          "variants": 1,
+          "tripCount": 131,
+          "stops": 17,
+          "lengthKm": 7.63,
+          "stats": {
+            "observations": 379,
+            "matched": 379,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.985638813060756,
+            "roundaboutSegs": 10,
             "extStart": 0,
             "extEnd": 0
           }
@@ -5264,6 +5057,56 @@
       "rank": 1
     },
     {
+      "line": "123",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 19,
+          "lengthKm": 9.48,
+          "stats": {
+            "observations": 467,
+            "matched": 467,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.060902151441352,
+            "roundaboutSegs": 74,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ЛИФТА СИМЕОНОВО",
+          "headsign": "ЛИФТА СИМЕОНОВО",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 18,
+          "lengthKm": 9.49,
+          "stats": {
+            "observations": 471,
+            "matched": 471,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.323705998176582,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
       "line": "150",
       "mode": "bus",
       "color": "#0059a9",
@@ -6027,6 +5870,56 @@
       "rank": 1
     },
     {
+      "line": "288",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "variants": 1,
+          "tripCount": 113,
+          "stops": 21,
+          "lengthKm": 8.87,
+          "stats": {
+            "observations": 444,
+            "matched": 444,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.334577559844438,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ж.к. Гоце Делчев",
+          "headsign": "ж.к. Гоце Делчев",
+          "variants": 1,
+          "tripCount": 113,
+          "stops": 19,
+          "lengthKm": 8.11,
+          "stats": {
+            "observations": 389,
+            "matched": 389,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.847759097487453,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
       "line": "294",
       "mode": "bus",
       "color": "#0059a9",
@@ -6498,6 +6391,56 @@
       "rank": 1
     },
     {
+      "line": "801",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Ж.к. Красно село",
+          "headsign": "Ж.к. Красно село",
+          "variants": 1,
+          "tripCount": 66,
+          "stops": 14,
+          "lengthKm": 9.19,
+          "stats": {
+            "observations": 449,
+            "matched": 449,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.937940362867278,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "КВ. МАНАСТИРСКИ ЛИВАДИ",
+          "headsign": "КВ. МАНАСТИРСКИ ЛИВАДИ",
+          "variants": 1,
+          "tripCount": 69,
+          "stops": 18,
+          "lengthKm": 8.16,
+          "stats": {
+            "observations": 407,
+            "matched": 407,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.412926478382456,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
       "line": "802",
       "mode": "bus",
       "color": "#0059a9",
@@ -6669,6 +6612,56 @@
             "rawMeters": 0,
             "meanError": 3.369136791544986,
             "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "line": "E186",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "headsign": "АВТОСТАНЦИЯ ГЕО МИЛЕВ",
+          "variants": 1,
+          "tripCount": 66,
+          "stops": 20,
+          "lengthKm": 11.48,
+          "stats": {
+            "observations": 565,
+            "matched": 565,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.2026819759830625,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "село Герман",
+          "headsign": "село Герман",
+          "variants": 1,
+          "tripCount": 66,
+          "stops": 19,
+          "lengthKm": 11.6,
+          "stats": {
+            "observations": 576,
+            "matched": 576,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.130154766086176,
+            "roundaboutSegs": 34,
             "extStart": 0,
             "extEnd": 0
           }
